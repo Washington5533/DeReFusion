@@ -187,3 +187,12 @@ reproduction/logs/
 # file. Doctrine L0.8: an artifact above its host's limit is stored by a
 # declared mechanism, never by committing the blob.
 reproduction/results/**/*revin-TimesNet*/checkpoint.pth
+
+# Archify diagram build evidence: its receipts resolve spec/artifact paths to
+# absolute local paths, so only the diagram HTML and its source JSON are tracked.
+.archify/**/*.finalize.json
+.archify/**/*.finalize-summary.json
+.archify/**/*.browser-check.json
+.archify/**/*.delivery.json
+.archify/**/visual-check*/
+.archify/**/evidence-v*/
